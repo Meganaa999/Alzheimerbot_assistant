@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1">
+<category>
+    <pattern>HELLO</pattern>
+    <template>
+    Hi there! How can I help you?
+    </template>
+</category>
+<category>
+    <pattern>What is my name</pattern>
+    <template>
+    Your name is Rahul.
+    </template>
+</category>
+<category>
+    <pattern>Who are you</pattern>
+    <template>
+    I am your assistant bot
+    </template>
+</category>
+<category>
+        <pattern>*</pattern>
+        <template>
+            <random>
+            <li>sorry,couldn't quite get that</li> 
+            <li>try asking something else maybe?</li>
+            <li>I don't understand</li>
+        </random>
+        </template>
+</category>
+</aiml>
